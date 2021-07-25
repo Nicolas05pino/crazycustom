@@ -5,7 +5,8 @@ const slider = document.querySelector('#slider')
         const images = []
         for(let x= 1; x <=36; x +=1){
             const number = x.toString().padStart(2,'00')
-            const url = `https://stockx-360.imgix.net/adidas-Yeezy-Boost-350-V2-Yecheil/Images/adidas-Yeezy-Boost-350-V2-Yecheil/Lv2/img${number}.jpg?auto=format,compress&w=559&q=90&dpr=2&updated_at=1574449122`
+            const url = `https://images.stockx.com/360/Nike-Air-Force-1-Low-White-07/Images/Nike-Air-Force-1-Low-White-07/Lv2/img${number}.jpg?auto=compress&dpr=1&updated_at=1611163779&fit=clip&fm=webp&ixlib=react-9.1.5&q=90&w=1140`
+            //const url = `https://stockx-360.imgix.net/adidas-Yeezy-Boost-350-V2-Yecheil/Images/adidas-Yeezy-Boost-350-V2-Yecheil/Lv2/img${number}.jpg?auto=format,compress&w=559&q=90&dpr=2&updated_at=1574449122`
             //const url = `https://stockx-360.imgix.net/adidas-Yeezy-Boost-350-V2-Yecheil/Images/adidas-Yeezy-Boost-350-V2-Yecheil/Lv2/img01.jpg?auto=format,compress&w=559&q=90&dpr=2&updated_at=1574449122`
             const image = new Image()
             image.src = url
