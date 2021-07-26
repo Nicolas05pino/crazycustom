@@ -4,24 +4,22 @@ body
 }
 header 
 {
-    background-color: #272D40;
-    opacity: 70%;
+    background-color: var(--dark-color);
+    background-color: rgb(41, 41, 41);
+    opacity: 100%;
     background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
     background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
     width: auto;
     height: 80px;
     text-align: center;
     color: white;
-    font-size: 15px;
+    font-size: 13px;
 }
 header .titulo
 {
-    padding: 8px;
+    padding: 24px;
 }
-header .lema
-{
-    font-size: 18px;
-}
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 :root {
@@ -57,6 +55,7 @@ header .lema
   a {
     text-decoration: none;
     color: rgb(73, 118, 240);
+    padding-bottom: 20px;
   }
   
   img {
@@ -66,12 +65,11 @@ header .lema
   
   /*===== CARD =====*/
   .container {
-    height: 65vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--dark-color-lighten);
-
     
   }
   
@@ -89,7 +87,7 @@ header .lema
   .card__img {
     position: absolute;
     width: 260px;
-    filter: drop-shadow(5px 10px 15px rgba(8,9,13,.4));
+    filter: drop-shadow(5px 10px 15px rgb(156, 156, 156));
   }
   
   .card__data {
@@ -101,6 +99,7 @@ header .lema
     font-size: var(--h1-font-size);
     color: var(--first-color);
     margin-bottom: .5rem;
+    
   }
   
   .card__preci {
@@ -130,7 +129,7 @@ header .lema
   }
   
   .card__button:hover {
-    box-shadow: 0 18px 40px -12px rgba(12, 131, 242, 0.35);
+    box-shadow: 0 18px 40px -12px rgba(253, 153, 38, 0.35);
   }
   
   .card__img, 
