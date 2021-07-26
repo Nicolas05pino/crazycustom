@@ -132,9 +132,8 @@ header .titulo
     position: relative;
     margin: 0%;
     top: 70px;
-    bottom: 60px;
     text-align: center;
-    border: black 1px solid;
+    box-shadow: lightslategrey;
     border-radius: 10px;
     background: rgb(55, 99, 194);
     color: white;
