@@ -25,7 +25,7 @@ const slider = document.querySelector('#slider')
             loadImage(this.value)
         }
 
-        const bg = document.getElementById('bg');
+    const bg = document.getElementById('bg');
     function randomColor(){
         return Math.floor(Math.random()*255);
     }
