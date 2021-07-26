@@ -7,7 +7,7 @@ window.addEventListener('load', pageLoaded)
 function pageLoaded() {
   for (let i = 1; i <= 36; i += 1) {
     const number = i.toString().padStart(2, '00')
-    const url = `https://images.stockx.com/360/Air-Jordan-1-Mid-Black-White-W/Images/Air-Jordan-1-Mid-Black-White-W/Lv2/img${number}.jpg?auto=compress&dpr=1&updated_at=1612282037&fit=clip&fm=webp&ixlib=react-9.1.5&q=90&w=1140`
+    const url = `https://images.stockx.com/360/adidas-Yeezy-Boost-350-V2-Core-Black-Red-2017/Images/adidas-Yeezy-Boost-350-V2-Core-Black-Red-2017/Lv2/img${number}.jpg?auto=compress&dpr=1&updated_at=1606320792&fit=clip&fm=webp&ixlib=react-9.1.5&q=90&w=1140`
     const image = new Image()
     image.src = url
     image.addEventListener('load', () => {
