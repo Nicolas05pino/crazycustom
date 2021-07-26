@@ -16,14 +16,31 @@ header
     background-color: rgb(41, 41, 41);
     opacity: 100%;
     width: 100%;
-    height: 60px;
-    text-align: center;
+    height: 80px;
     color: white;
     font-size: 13px;
 }
 header .titulo
 {
-    padding: 1px;
+    text-align: center;
+    position: static;
+    margin-top: 1px;
+}
+header .volver
+{
+    display: block;
+    position: relative;
+    text-align: left;
+    top: 40%;
+    left: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+header .volver:hover
+{
+    color: rgb(55, 99, 194);
+    text-decoration: underline;
 }
 input 
 {
