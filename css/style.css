@@ -55,7 +55,7 @@ header .titulo
   a {
     text-decoration: none;
     color: rgb(73, 118, 240);
-    padding-bottom: 20px;
+    
   }
   
   img {
@@ -89,10 +89,6 @@ header .titulo
     width: 260px;
     filter: drop-shadow(5px 10px 15px rgb(156, 156, 156));
   }
-  div .card_content
-  {
-    padding-top: 5px;
-  }
   
   .card__data {
     transform: translateY(13.2rem);
@@ -119,21 +115,41 @@ header .titulo
     opacity: 0;
   }
   
-  .card__button {
+  a .card__button {
     display: block;
+    position: relative;
     width: max-content;
     padding: 1.125rem 2rem;
-    background-color: var(--first-color);
+    background: rgb(55, 99, 194);
     color: var(--white-color);
     border-radius: .5rem;
     font-weight: 600;
     transition: .2s;
     opacity: 0;
+    border-radius: 5px;
+  }
+  a:link, a:visited, a:focus {
+    position: relative;
+    margin: 10px;
+    top: 80px;
+    border: black 1px solid;
+    border-radius: 5px;
+    background: rgb(55, 99, 194);
+    color: white;
+    padding: 10px;
   }
   
-  .card__button:hover {
-    box-shadow: 0 18px 40px -12px rgba(253, 153, 38, 0.35);
+  a:hover {
+    background: white;
+    color: black;
+    box-shadow: black;
   }
+  
+  a:active {
+    background: rgb(55, 99, 194);
+    color: white;
+  }
+  
   
   .card__img, 
   .card__data, 
