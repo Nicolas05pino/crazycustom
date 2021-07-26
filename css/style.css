@@ -89,6 +89,10 @@ header .titulo
     width: 260px;
     filter: drop-shadow(5px 10px 15px rgb(156, 156, 156));
   }
+  div .card_content
+  {
+    padding-top: 5px;
+  }
   
   .card__data {
     transform: translateY(13.2rem);
@@ -98,8 +102,7 @@ header .titulo
   .card__title {
     font-size: var(--h1-font-size);
     color: var(--first-color);
-    margin-bottom: .5rem;
-    
+    margin-top: .5em;
   }
   
   .card__preci {
