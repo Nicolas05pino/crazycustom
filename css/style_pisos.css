@@ -42,8 +42,12 @@ header .volver:hover
     color: rgb(55, 99, 194);
     text-decoration: underline;
 }
+.canvas
+{
+    margin-top: 20px;
+}
 input 
 {
-    margin-top: 50px;
+    margin-top: 30px;
     width: 768px;
 }
