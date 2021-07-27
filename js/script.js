@@ -1,5 +1,5 @@
 
-    var pathname = window.location.pathname;
+    var pathname = window.location.pathname;  //chopy
     if(pathname == "/zapato0.html"){
       const slider = document.querySelector('#slider')
       const canvas = document.querySelector('#canvas')
