@@ -25,7 +25,21 @@ header .titulo
     text-align: center;
     position: static;
     margin-top: 1px;
+    animation: color-change 5s infinite;
 }
+@keyframes color-change {
+    0% {color: white;}
+    10% {color: #FF0000;}
+    20% {color: #e77811;}
+    30% {color: rgb(250, 225, 0);}
+    40% {color: rgb(166, 255, 0);}
+    50% {color: rgb(30, 255, 0);}
+    60% {color: rgb(0, 251, 147);}
+    70% {color: rgb(0, 195, 255);}
+    80% {color: rgb(0, 47, 255)}
+    90% {color: rgb(76, 0, 255);}
+    100% {color: rgb(225, 0, 255);}
+  }
 header .volver
 {
     display: block;
